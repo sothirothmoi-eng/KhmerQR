@@ -133,7 +133,7 @@ const QRSection: React.FC<QRSectionProps> = ({ t, isKhmer }) => {
         <div className="space-y-6 md:space-y-10">
           <div className="space-y-3 md:space-y-4 text-center lg:text-left">
             <span className={`inline-block px-4 py-1.5 rounded-full bg-indigo-100 dark:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 font-bold text-xs tracking-wide ${isKhmer ? 'font-khmer' : ''}`}>
-              {isKhmer ? 'បច្ចេកវិទ្យាខ្មែរ' : 'Powered by AI'}
+              {isKhmer ? 'បច្ចេកវិទ្យាខ្មែរ' : 'Khmer Tech'}
             </span>
             <h1 className={`text-4xl md:text-5xl lg:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight ${isKhmer ? 'font-khmer' : ''}`}>
               {t.hero_title}
