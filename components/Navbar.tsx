@@ -77,7 +77,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, setLang, darkMode, setDarkMode })
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <div className="w-8 h-8 bg-indigo-600 dark:bg-indigo-500 rounded-lg flex items-center justify-center shadow-indigo-200 dark:shadow-none shadow-lg">
-              <span className="text-white font-bold text-lg">Q</span>
+              <span className="text-white font-bold text-lg">QR</span>
             </div>
             <span className={`font-bold text-xl text-gray-800 dark:text-white ${lang === 'km' ? 'font-khmer' : ''}`}>
               KhmerQR
