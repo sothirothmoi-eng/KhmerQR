@@ -32,6 +32,9 @@ export interface Translations {
   contact_email: string;
   contact_message: string;
   contact_submit: string;
+  contact_sending: string;
+  contact_success: string;
+  contact_error: string;
   
   placeholder_name: string;
   placeholder_email: string;
