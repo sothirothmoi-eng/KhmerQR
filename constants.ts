@@ -33,6 +33,9 @@ export const TRANSLATIONS: Record<'km' | 'en', Translations> = {
     contact_email: 'ទំនាក់ទំនង',
     contact_message: 'សារ',
     contact_submit: 'ផ្ញើសារ',
+    contact_sending: 'កំពុងផ្ញើ...',
+    contact_success: 'សាររបស់អ្នកត្រូវបានផ្ញើជូនរួចរាល់ហើយ!',
+    contact_error: 'មានបញ្ហាបន្តិចបន្តួច សូមព្យាយាមម្តងទៀត។',
 
     placeholder_name: 'សរសេរឈ្មោះនៅទីនេះ...',
     placeholder_email: 'សរសេរលេខទូរស័ព្ទ ឬ អ៊ីមែល...',
@@ -72,6 +75,9 @@ export const TRANSLATIONS: Record<'km' | 'en', Translations> = {
     contact_email: 'Contact',
     contact_message: 'Message',
     contact_submit: 'Send Message',
+    contact_sending: 'Sending...',
+    contact_success: 'Your message has been sent successfully!',
+    contact_error: 'Something went wrong. Please try again.',
 
     placeholder_name: 'Enter your name here...',
     placeholder_email: 'Enter phone or email...',
@@ -87,7 +93,7 @@ export const APPS_LIST: AppShowcaseItem[] = [
     titleEn: 'Khmer AI Truth Lens',
     titleKm: 'កម្មវិធីពិនិត្យការពិត AI',
     descriptionEn: 'A forensic AI-generated image detector built with React and Gemini 3. Supports dual-language for deep analysis of digital artifacts.',
-    descriptionKm: 'បច្ចេកវិទ្យា AI សម្រាប់ត្រួតពិនិត្យរូបភាព ដើម្បីដឹងថាជារូបពិត ឬរូបដែលបង្កើតដោយ AI។',
+    descriptionKm: 'បច្ចេកវិទ្យា AI សម្រាប់ត្រួតពិនិត្យរូបភាព ដើម្បីដឹងថាជាររូបពិត ឬរូបដែលបង្កើតដោយ AI។',
     iconName: 'ScanEye',
     color: 'text-rose-500',
     gradient: 'from-rose-500 to-orange-500',
