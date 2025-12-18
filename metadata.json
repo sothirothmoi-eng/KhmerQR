@@ -1,0 +1,5 @@
+{
+  "name": "Khmer Easy QR",
+  "description": "A simple, bilingual (Khmer/English) one-page application to generate QR codes with ease, featuring logo embedding and mobile-friendly design.",
+  "requestFramePermissions": []
+}
