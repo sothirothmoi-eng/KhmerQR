@@ -7,7 +7,7 @@ export const TRANSLATIONS: Record<'km' | 'en', Translations> = {
     nav_contact: 'ទំនាក់ទំនង',
     
     hero_title: 'បង្កើត QR Code ងាយៗ',
-    hero_subtitle: 'ដំណោះស្រាយសម្រាប់អាជីវកម្ម និងការប្រើប្រាស់ផ្ទាល់ខ្លួន',
+    hero_subtitle: 'ដំណោះស្រាយសម្រាប់ការងារ អាជីវកម្ម និងការប្រើប្រាស់ផ្ទាល់ខ្លួន',
     
     tab_simple: 'QR ធម្មតា',
     tab_logo: 'QR មានរូប Logo',
